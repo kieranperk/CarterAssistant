@@ -21,7 +21,7 @@ m = sr.Microphone()
 print("Calibrating ambient noise threshold.")
 with m as source: r.adjust_for_ambient_noise(source)
 print("Set minimum energy threshold to {}".format(round(r.energy_threshold, 1)))
-engine.say("Pie is now active!")
+engine.say("CarterAssistant is now active!")
 engine.runAndWait()
 while True:
     try:
@@ -40,7 +40,7 @@ while True:
                     if value != None and "goodbye" in value:
                         convActive = False
                         engine.say("Okay, goodbye!")
-                        print("Pie: Okay, goodbye!")
+                        print("CarterAssistant: Okay, goodbye!")
                         engine.runAndWait()
                     else:
                         # Open Conversation Via CarterAPI
