@@ -3,7 +3,8 @@ import pyttsx3
 import speech_recognition as sr
 
 # Config
-activekeyword = "hello"
+activekeyword = "hello" # The word which will wake the assistant
+carter_key = 'YOUR CARTER API KEY' # Your CarterAPI key, found in the carter dashboard under "Access & More"
 
 # Voice Settings
 engine = pyttsx3.init()
@@ -15,9 +16,6 @@ engine.setProperty('voice', voices[1].id)
 # Speech Recognition
 r = sr.Recognizer()
 m = sr.Microphone()
-
-# Keys
-carter_key = 'YOUR CARTER API KEY' #found in the carter dashboard, under "Access & More"!
 
 # Startup
 print("Calibrating ambient noise threshold.")
