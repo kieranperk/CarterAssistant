@@ -1,6 +1,12 @@
-# CarterAssistant
-
-CarterAssistant is a Voice Assistant coded in python for utilization with CarterAPI!
+<h1 align="center">
+  CarterAssistant
+</h1>
+<p align="center">
+  <a href="https://github.com/MountainTiger144/CarterAssistant/stargazers"><img src="https://img.shields.io/github/stars/MountainTiger144/CarterAssistant?color=a14fc4"></a>
+  <a><img src="https://img.shields.io/github/downloads/MountainTiger144/CarterAssistant/total?color=396afc"></a>
+  <a><img src="https://img.shields.io/github/contributors/MountainTiger144/CarterAssistant?color=a14fc4"></a>
+</p>
+<h5 align="center">A voice assistant using <a href="https://www.carterapi.com/">CarterAPI</a>.</h5>
 
 ## Installation
 
